@@ -1,0 +1,114 @@
+:root{
+    --header-color: #012D63;
+    --button-color: #8E32C6;
+}
+
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    color:#fff;
+    margin: 0;
+    background-color: var(--header-color);
+}
+
+h1,h2,h3,h4.p,img.ul,li,button,input, label,form{
+    margin:0;
+    padding:0;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--header-color);
+
+    
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: pink solid;
+    }
+.header .logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header .main ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header .header-list ul li a{
+color:#fff;
+text-decoration: none;
+font-size: 1em;
+}   
+
+.reviews{
+    font-family: "Playfair Display" ;
+    font-size: 48px;
+    text-align: center;
+}
+
+.rev{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.ul{
+    list-style: none;
+}
+
+.li{
+    list-style: none;
+}
+
+.logo{
+
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;     
+}
+
+.navigation-list{
+    display: flex;
+    gap: 30px;
+    margin-right: 73px;
+    margin-left: 152px;  
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    display: flex;
+    gap: 30px;
+    margin-right: 73px;
+    margin-left: 152px;  
+}
+
+.order{
+    font-family: "Playfair Display";
+    font-size: 48px;
+    text-align: center; 
+}
